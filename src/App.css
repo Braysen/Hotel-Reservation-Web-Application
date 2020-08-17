@@ -94,7 +94,8 @@ h6 {
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: var(--offWhite);
+  /*background: var(--offWhite);*/
+  background: #FFFAFA;
   z-index: 1;
 }
 .nav-header {
@@ -221,6 +222,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
   text-transform: capitalize;
   margin-bottom: 1rem;
+  color: white;/*Agregado*/
 }
 .section-title div {
   width: 5rem;
@@ -235,7 +237,8 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  /*background: var(--darkGrey);*/
+  background: #202020;/*Agregado*/
   text-align: center;
 }
 .services-center {
@@ -254,10 +257,14 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  /*font-family: 'Dosis', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
 }
 .services p {
   width: 80%;
   margin: 0 auto;
+  /*font-family: 'Dosis', sans-serif;*/
+  font-family: 'Arapey', serif;
 }
 @media screen and (min-width: 992px) {
   .services-center {
