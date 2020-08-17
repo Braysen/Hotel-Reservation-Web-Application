@@ -27,7 +27,8 @@ export default class Services extends Component {
                 info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis!"
             }
         ]
-    }
+    };
+  
     render() {
         return (
             <section className="services">

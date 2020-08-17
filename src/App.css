@@ -257,8 +257,8 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
-  /*font-family: 'Dosis', sans-serif;*/
   font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
 }
 .services p {
   width: 80%;
