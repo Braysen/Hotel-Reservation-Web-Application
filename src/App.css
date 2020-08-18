@@ -41,6 +41,7 @@ h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
+  color: white;/*white*/
 }
 h5 {
   font-size: 1em;
@@ -166,10 +167,12 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;/*Nuevo*/
 }
 .roomsHero {
   background-image: url("./images/room-2.jpeg");
   min-height: 60vh;
+  background-attachment: none;
 }
 /* End of Hero */
 /* Banner */
@@ -222,7 +225,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
   text-transform: capitalize;
   margin-bottom: 1rem;
-  color: white;/*Agregado*/
+  color: #C0C0C0;/*Agregado*/
 }
 .section-title div {
   width: 5rem;
@@ -326,7 +329,9 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  /*background: rgba(0, 0, 0, 0.8);*/
+  /*background: rgba(175, 0, 0, 0.8);*/
+  background: rgba(195,132,86,0.8);
   color: var(--mainWhite);
   padding: 0.3rem 0.6rem 0.5rem;
   border-bottom-right-radius: 1rem;
@@ -360,12 +365,14 @@ h6 {
   transform: translate(-50%, -50%) scale(1);
 }
 .room-info {
-  background: var(--darkGrey);
+  /*background: var(--darkGrey);*/
+  background: #a4110e;
   text-transform: capitalize;
   padding: 0.5rem 0;
   text-align: center;
   font-weight: 700;
   letter-spacing: var(--mainSpacing);
+  color: white;/*nuevo*/
 }
 /* end of room  */
 /* single room*/
